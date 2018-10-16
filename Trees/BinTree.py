@@ -1,3 +1,6 @@
+from Trees.Visualizer import draw_tree
+
+
 class Node(object):
 
     def __init__(self, value=None, lchild=None, rchild=None):
@@ -13,6 +16,7 @@ class BinTree(object):
     """
     A class and reference implementation of binary trees
     """
+
     def __init__(self, seq):
         """
 
@@ -150,8 +154,6 @@ if __name__ == "__main__":
     print(tree.preorder())
     print("size: ", tree.size())
     print("height: ", tree.height())
-
-    from Trees.Visualizer import draw_tree
 
     draw_tree(tree.root)
     tree.insert_left(1000)  # test insert function
