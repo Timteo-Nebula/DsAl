@@ -33,4 +33,5 @@ def infix2postfix(infixexpr):
     return " ".join(postfixList)
 
 
-print(infix2postfix("( A + B ) * C - ( D - E ) * ( F + G )"))
+if __name__ == "__main__":
+    print(infix2postfix("( A + B ) * C - ( D - E ) * ( F + G )"))

@@ -1,0 +1,13 @@
+1 .Linear data structures maintain their data in an ordered fashion .
+2 .Stacks are simple data structures that maintain a LIFO, last-in first-out, ordering .
+3 .The fundamental operations for a stack are push, pop, and isEmpty .
+4 .Queues are simple data structures that maintain a FIFO, first-in first-out, ordering .
+5 .The fundamental operations for a queue are enqueue, dequeue, and isEmpty .
+6 .Prefix, infix, and postfix are all ways to write expressions .
+7 .Stacks are very useful for designing algorithms to evaluate and translate expressions .
+8 .Stacks can provide a reversal characteristic .
+9 .Queues can assist in the construction of timing simulations .
+10.Deques are data structures that allow hybrid behavior like that of stacks and queues .
+11.The fundamental operations for a deque are addFront, addRear, removeFront, removeRear, and isEmpty .
+12.Lists are collections of items where each item holds a relative position .
+13.A linked list implementation maintains logical order without requiring physical storage requirements .
